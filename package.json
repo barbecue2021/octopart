@@ -1,0 +1,26 @@
+{
+  "name": "apollo",
+  "version": "1.0.0",
+  "description": "Octopart Restful API",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vbsipt/octopart.git"
+  },
+  "keywords": [
+    "octopart"
+  ],
+  "author": "距离",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vbsipt/octopart/issues"
+  },
+  "homepage": "https://github.com/vbsipt/octopart#readme",
+  "dependencies": {
+    "apollo-server": "^3.3.0",
+    "graphql": "^15.5.1"
+  }
+}
