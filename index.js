@@ -3,7 +3,7 @@
 * @Author: 距离
 * @Date:   2021-08-29 15:17:06
  * @Last Modified by: 距离
- * @Last Modified time: 2021-08-29 16:54:23
+ * @Last Modified time: 2021-08-29 18:50:25
 **/
 
 const { ApolloServer, gql } = require('apollo-server');
@@ -34,7 +34,3 @@ server.listen().then(({ url }) => {
 });
 
 
-/**
- * 测试啊啊啊啊啊
- * 156485456154
- */
