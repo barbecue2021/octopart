@@ -3,7 +3,7 @@
 * @Author: 距离
 * @Date:   2021-08-29 15:17:06
  * @Last Modified by: 距离
- * @Last Modified time: 2021-08-29 16:22:36
+ * @Last Modified time: 2021-08-29 16:54:23
 **/
 
 const { ApolloServer, gql } = require('apollo-server');
@@ -26,6 +26,7 @@ const resolvers = {
 const server = new ApolloServer({
   typeDefs,
   resolvers,
+  
 });
 
 server.listen().then(({ url }) => {
